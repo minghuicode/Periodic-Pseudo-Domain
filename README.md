@@ -20,6 +20,10 @@ git clone https://github.com/minghuicode/Periodic-Pseudo-Domain
 
 2. create conda enviroment
 
+```
+conda env create -f environment.yml
+```
+
 3. enable skew-Iou in GPU
 
 ```

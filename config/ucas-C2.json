@@ -1,0 +1,14 @@
+{
+    "backbone": "resnet50",
+    "dataset": "Ucas",
+    "model_name": "ucas-C2",
+    "contour_weight": 1.0,  
+    "rect_weight": 100.0,  
+    "rect_stride": 1,  
+    "gamma": 3.0,
+    "epoch": 500,
+    "batch_size": 8,
+    "val_epoch": 10,
+    "conf_thres": 0.5,
+    "nms_thres": 0.3
+} 

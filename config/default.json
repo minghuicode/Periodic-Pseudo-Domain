@@ -1,0 +1,20 @@
+{
+    "backbone": "resnet50",
+    "dataset": "Ucas",
+    "model_name": "resnet50Ucas",
+    "contour1_scale": 10.0,
+    "contour2_scale": 10.0,
+    "contour3_scale": 10.0,
+    "rect1_scale": 100.0,
+    "rect2_scale": 100.0,
+    "rect3_scale": 100.0,
+    "rect1_stride": 4,
+    "rect2_stride": 2,
+    "rect3_stride": 1,
+    "gamma": 1.0,
+    "epoch": 100,
+    "batch_size": 8,
+    "val_epoch": 3,
+    "conf_thres": 0.5,
+    "nms_thres": 0.3
+}

@@ -1,0 +1,15 @@
+{
+    "backbone": "resnet101",
+    "dataset": "Hrsc",
+    "model_name": "hrsc",   
+    "contour_weight": 1.0, 
+    "rect_weight": 100.0,  
+    "rect_stride": 1,
+    "gamma": 3.0,
+    "epoch": 200,
+    "batch_size": 6,
+    "val_epoch": 10,
+    "conf_thres": 0.5,
+    "nms_thres": 0.3
+}
+    

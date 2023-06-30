@@ -1,0 +1,14 @@
+{
+    "backbone": "resnet18",
+    "dataset": "Munich",
+    "model_name": "dlr-C1", 
+    "contour_weight": 1.0, 
+    "rect_weight": 100.0,  
+    "rect_stride": 1,
+    "gamma": 1.0,
+    "epoch": 200,
+    "batch_size": 8,
+    "val_epoch": 10,
+    "conf_thres": 0.5,
+    "nms_thres": 0.3
+}

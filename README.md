@@ -24,7 +24,9 @@ git clone https://github.com/minghuicode/Periodic-Pseudo-Domain
 2. create conda enviroment
 
 ```
-conda env create -f environment.yml
+conda env create -f conda_env.yaml
+source activate light
+pip install -r pip_env.txt
 ```
 
 3. enable skew-Iou based NMS in GPU, otherwise, skew-IoU based NMS only run in CPU
